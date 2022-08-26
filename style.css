@@ -100,7 +100,6 @@ body {
     background:#A59678;
     padding: 0.25em 1em;
     border-radius: 10em;
-   
   }
 
   .nav__list {
@@ -130,7 +129,7 @@ body {
     color: #fff;
     font-family:Oswald;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 0.8em;
     background-color: #A59678;
     padding: 0.75em 2em;
     border-radius: 100px;
@@ -143,7 +142,7 @@ body {
   
   .hero{
     background: #3B4050;
-    padding: 100px 0;
+    padding: 50px 0;
     color: #fff;
     margin: 0;
     width: 100%;
@@ -155,7 +154,7 @@ body {
 .hero__title{
     font-family: Oswald;
     font-weight:bold;
-    font-size: 3em;
+    font-size: 1.5em;
     line-height: 1.1;
    
 }
@@ -165,22 +164,20 @@ h1{
 }
 
 .hero_text {
-    font-weight: regular;
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 1.5em;
     color:#ffffff;
 }
   .section_two {
     background: #fbfbfb;
-    padding: 100px 0;
+    padding: 5px 0;
     text-align:center;  
-    font-size: 18px 
-    
+    font-size: 1em; 
   }
 .section_two_header {
     font-family:Oswald;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 2em;
     color: #A59678;
 }
 
@@ -209,13 +206,13 @@ h1{
 
   .sidebar_item{
     background:#3B4050;
-    padding: 3rem ;
+    padding: 3rem;
     margin: 2rem 0;
     text-align:center; 
     color: #fff; 
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 18px
+    font-size: 1.3em;
   }
   .sidebar_title{
     font-family: Oswald;
@@ -240,7 +237,7 @@ h1{
     font-family: Oswald; 
     font-weight: Bold;
     font-size: 24px;
-    padding: 50px 0;
+    padding: 5px 0;
     color:  #EAEBEC;
     text-align:center;
   }
@@ -274,7 +271,9 @@ h1{
   
 @media (min-width: 700px) {
 
-  
+  .btn{
+    font-size: 1em;
+  }
     .nav-toggle {
       display: none;
       
@@ -306,9 +305,25 @@ h1{
     }
 
     .hero{
-      padding: 200px 0;
+      padding: 75px 0;
     }
-              
+
+    .hero__title{
+      font-size: 2.45em;
+    }
+
+    .hero_text {
+      font-size: 1.75em;
+    }    
+    
+    .section_two {
+      padding: 10px 0;
+      font-size: 1.3em;
+    }
+
+    .section_two_header {
+      font-size: 2em;
+    }
   
     .main_title{
       margin: 0;
@@ -322,7 +337,13 @@ h1{
       
     }
     .sidebar_item{
+        padding: 1.5rem;
         margin: 1rem;
+        font-size: 1.3em;
+    }
+
+    .sidebar_title{
+      font-size: 1.3em;
     }
     .about{
         display:flex;
@@ -348,9 +369,13 @@ h1{
       text-align: left;
     }
     
+    .section_four {
+      padding: 10px 0;
+    }
     .footer_header > h3{
-      font-size: 2.5em;
+      font-size: 2em;
       margin: 0;
+      padding: 50px 0;
     }
    
  
@@ -358,6 +383,12 @@ h1{
 
   @media (min-width: 1200px) {
 
+    .btn{
+      font-size: 1em;
+    }
+    .hero{
+      padding: 100px 0;
+    }
     .hero__title{
       font-size: 5em;
       line-height: 0.8;
@@ -369,6 +400,10 @@ h1{
     }
 
     .hero_text{
+      font-size: 3em;
+    }
+
+    .hero_text {
       font-size: 2em;
     }
 
@@ -377,6 +412,14 @@ h1{
       justify-content: space-between;
       align-items:flex-end;
     }
+
+    .section_two {
+      background: #fbfbfb;
+      padding: 20px 0;
+      font-size: 1.3em;
+    }
+
+    
     .side{
         display:flex; 
         justify-content: space-between;       
